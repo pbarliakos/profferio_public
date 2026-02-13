@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Support Links</title>
+    <style>
+        :root {
+            --bg-color: #f4f7f6;
+            --text-color: #333;
+            --tile-bg: #ffffff;
+            --tile-shadow: rgba(0,0,0,0.1);
+            --accent-color: #0078d4;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg-color: #1a1a1a;
+                --text-color: #e0e0e0;
+                --tile-bg: #2d2d2d;
+                --tile-shadow: rgba(0,0,0,0.3);
+                --accent-color: #47aeff;
+            }
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            display: flex;
+            flex-direction: column; /* Για να μπει το logo από πάνω */
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        /* Στυλ για το κεντρικό Logo πάνω από τα tiles */
+        .main-logo {
+            max-width: 380px;
+            height: auto;
+            margin-bottom: 40px;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 25px;
+            width: 90%;
+            max-width: 600px;
+        }
+
+        .tile {
+            background-color: var(--tile-bg);
+            padding: 40px 20px;
+            text-align: center;
+            text-decoration: none;
+            color: var(--text-color);
+            border-radius: 15px;
+            box-shadow: 0 4px 15px var(--tile-shadow);
+            transition: transform 0.2s, box-shadow 0.2s;
+            border: 2px solid transparent;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            font-weight: 600;
+        }
+
+        .tile:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 25px var(--tile-shadow);
+            border-color: var(--accent-color);
+        }
+
+        .tile img {
+            width: 40px; /* Μέγεθος εικονιδίου μέσα στο tile */
+            height: auto;
+            margin-bottom: 30px;
+        }
+
+        .icon-emoji {
+            font-size: 2.5rem;
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+<body>
+
+    <img src="profferio2.png" alt="Profferio Logo" class="main-logo">
+
+    <div class="container">
+        <a href="http://profferio.othisisa.gr" class="tile">
+            <img src="profferio.png" alt="IT Icon">
+            IT Helpdesk
+        </a>
+
+        <a href="https://passwordreset.microsoftonline.com/passwordreset#!/" class="tile">
+            <div class="icon-emoji">🔐</div>
+            Reset Microsoft 365 Password
+        </a>
+    </div>
+
+</body>
+</html>
