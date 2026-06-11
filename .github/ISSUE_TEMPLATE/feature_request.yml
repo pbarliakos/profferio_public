@@ -1,0 +1,52 @@
+name: 💡 Feature request
+description: Suggest an idea or improvement for Profferio
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: We love hearing how Profferio can work better for you.
+  - type: input
+    id: company
+    attributes:
+      label: Company / instance
+      placeholder: company.profferio.com
+    validations:
+      required: false
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem would this solve?
+      description: Describe the need or pain point behind the request.
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: What would you like to see?
+      description: Describe the feature or improvement you have in mind.
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Which area?
+      options:
+        - Service Management / Tickets
+        - Form Builder
+        - Workflow & Automation
+        - Customer Portal
+        - AI Assistant (Chara)
+        - Time Tracking & Payroll
+        - Reports & Dashboards
+        - Notifications
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Anything else?
+      description: Add any other context, examples or screenshots.
+    validations:
+      required: false
