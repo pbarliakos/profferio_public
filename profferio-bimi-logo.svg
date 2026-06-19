@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1454c5"/>
+      <stop offset="100%" stop-color="#730198"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Φόντο με διαβάθμιση (gradient) και στρογγυλεμένες γωνίες -->
+  <rect width="512" height="512" rx="115" ry="115" fill="url(#bg-grad)"/>
+  
+  <!-- Το γράμμα "P" σχεδιασμένο με ακριβείς καμπύλες -->
+  <path d="M 178 100 
+           A 28 28 0 0 0 150 128
+           L 150 384
+           A 28 28 0 0 0 206 384
+           L 206 286
+           L 272 286
+           A 93 93 0 0 0 365 193
+           A 93 93 0 0 0 272 100
+           Z
+           M 206 156
+           L 272 156
+           A 37 37 0 0 1 309 193
+           A 37 37 0 0 1 272 230
+           L 206 230
+           Z" fill="#ffffff" fill-rule="evenodd"/>
+
+  <!-- Εικονίδιο μετάδοσης / Wi-Fi -->
+  <!-- Κεντρική τελεία -->
+  <circle cx="304" cy="356" r="19" fill="#ffffff"/>
+  
+  <!-- Εσωτερικό κύμα -->
+  <path d="M 333.7 326.3 A 42 42 0 0 1 333.7 385.7" fill="none" stroke="#ffffff" stroke-width="11" stroke-linecap="round" opacity="0.65"/>
+  
+  <!-- Εξωτερικό κύμα -->
+  <path d="M 354.9 305.1 A 72 72 0 0 1 354.9 406.9" fill="none" stroke="#ffffff" stroke-width="11" stroke-linecap="round" opacity="0.35"/>
+</svg>
