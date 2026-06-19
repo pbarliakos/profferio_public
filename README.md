@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="Profferio.png" alt="Profferio" width="420" />
+<img src="Profferionew.png" alt="Profferio" width="420" />
 
 ### Όλη η ομάδα σου, σε ένα μέρος.
 
