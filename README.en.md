@@ -115,13 +115,12 @@ company3.profferio.com  ─┘     (separate code + data)
 
 ---
 
-## 💼 Pricing
+## 💼 Plans
 
-Transparent pricing, billed monthly — per user/month, with a one-time setup fee.
+Flexible pricing, **tailored to your team and needs**. Pick the plan that fits and request a quote.
 
 | | **Starter** | **Business** ⭐ _Most popular_ | **Enterprise** |
 |---|---|---|---|
-| **Price** | from **€9** /user/mo | from **€19** /user/mo | **Custom** |
 | **Best for** | Small teams getting started | Your whole team in real time | On-premise & full customization |
 | Ticketing & dynamic forms | ✅ | ✅ | ✅ |
 | Customer portal & email notifications | ✅ | ✅ | ✅ |
@@ -132,7 +131,7 @@ Transparent pricing, billed monthly — per user/month, with a one-time setup fe
 | On-premise install & unlimited users | — | — | ✅ |
 | Custom integrations, SSO & dedicated support | — | — | ✅ |
 
-> 💡 On-premise pricing is lower (Starter €8, Business €16/user/mo). _Indicative prices — the final quote is shaped after the needs analysis._ [**Get a quote**](#-contact).
+> 💡 Available in **Cloud** or **On-Premise**. Pricing is shaped case-by-case after a short needs analysis. [**Get a quote**](#-contact).
 
 ---
 

@@ -22,7 +22,7 @@ Usually within a **few days**. We handle the implementation, the customization t
 Pricing is **monthly per user**. We discuss the plan that fits you during the quote — there's no obligation to start.
 
 ### How much does it cost?
-Indicative pricing: **Starter** from €9/user/mo, **Business** from €19/user/mo, **Enterprise** custom. On-premise pricing is lower. A one-time setup fee covers onboarding and customization. The final quote is shaped after a short needs analysis.
+Pricing is **tailored to your case** — your team size, the plan you choose and your hosting option (cloud or on-premise), plus a one-time setup fee for onboarding and customization. The final quote is shaped after a short needs analysis. [Request a quote](https://www.profferio.com).
 
 ### Is my company's data kept separate?
 Yes. Each company runs on its **own isolated instance** on a dedicated subdomain (`company.profferio.com`), with separated code and data.
